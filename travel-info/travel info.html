@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreUganda - Travel Information</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px 0;
+        }
+        header .container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        h2 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #e8f0fe;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #34a853;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #2c8c46;
+        }
+        footer {
+            background: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ExploreUganda.com</h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="culture.html">Culture & Cuisine</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        Travel Information & Planning
+    </div>
+
+    <div class="container">
+
+        <!-- Introduction -->
+        <section>
+            <h2>Plan Your Perfect Trip</h2>
+            <p>Welcome to the Travel Information page! Here you'll find everything you need to make your visit to Uganda smooth, safe, and unforgettable.</p>
+        </section>
+
+        <!-- How to Get There -->
+        <section>
+            <h2>How to Get Here</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>By Air</h3>
+                    <p>Arrive at Entebbe International Airport, with flights from major international cities.</p>
+                </div>
+                <div class="card">
+                    <h3>By Road</h3>
+                    <p>Bus routes, car rentals, and guided tours connect all major cities and tourist sites.</p>
+                </div>
+                <div class="card">
+                    <h3>Visa Information</h3>
+                    <p>Tourist visas can be obtained online or on arrival for many nationalities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Travel Seasons -->
+        <section>
+            <h2>Best Travel Seasons</h2>
+            <p>The dry season (June–August & December–February) is ideal for safaris. The wet season (March–May & September–November) offers lush scenery and fewer tourists.</p>
+        </section>
+
+        <!-- Accommodation Options -->
+        <section>
+            <h2>Accommodation Options</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <img src="download.jpeg" alt="Hotel">
+                    <h3>Wavah Hotel</h3>
+                    <p>Comfortable stays with stunning views of nature and wildlife.</p>
+                </div>
+                <div class="card">
+                    <img src="images.jpeg" alt="Hotel">
+                    <h3>Serena Hotel Kampala</h3>
+                    <p>Affordable, centrally-located hotels for easy city access.</p>
+                </div>
+                <div class="card">
+                    <img src="download (2).jpeg" alt="Eco Lodge">
+                    <h3>Malakai Eco Lodge Kitende</h3>
+                    <p> Malakai Eco Lodge Kitende lodge close to nature reserves and parks.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety & Etiquette -->
+        <section>
+            <h2>Safety Tips & Etiquette</h2>
+            <ul>
+                <li>Get required vaccinations before traveling.</li>
+                <li>Drink bottled water and use travel insurance.</li>
+                <li>Respect local customs and traditions.</li>
+                <li>Dress appropriately and greet locals politely.</li>
+            </ul>
+        </section>
+
+        <!-- Suggested Itineraries -->
+        <section>
+            <h2>Suggested Itineraries</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>3-Day Adventure</h3>
+                    <p>Kampala → Jinja → Murchison Falls</p>
+                    <a href="destinations.html" class="btn">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>1-Week Exploration</h3>
+                    <p>Kampala → Bwindi → Queen Elizabeth NP → Lake Mburo</p>
+                    <a href="destinations.html" class="btn">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Wildlife Safari</h3>
+                    <p>Uganda’s national parks for gorillas, lions, elephants, and more.</p>
+                    <a href="destinations.html" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ExploreUganda.com | Follow us on 
+            <a href="#" style="color:white;text-decoration:underline;">Facebook</a>, 
+            <a href="#" style="color:white;text-decoration:underline;">Instagram</a>, 
+            <a href="#" style="color:white;text-decoration:underline;">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>
