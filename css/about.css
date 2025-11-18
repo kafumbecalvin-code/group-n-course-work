@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://kafumbecalvin-code.github.io/group-n-course-work/images/about-us/Screenshot_20251116-104258.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.right {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+}
