@@ -5,15 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="https://kafumbecalvin-code.github.io/group-n-course-work/images/favicon.svg">
-    <link rel="stylesheet" href="https://kafumbecalvin-code.github.io/group-n-course-work/css/custom.css">
+    <link rel="stylesheet" href="https://kafumbecalvin-code.github.io/group-n-course-work/contact-us-css/style.css>
 </head>
 <body>
-    <a href="https://kafumbecalvin-code.github.io/group-n-course-work/">Home</a>
+    
+    <header class="topbar">
+        <div class="logo">ExploreUganda</div>
+        <nav class="menu">
+           <a href="https://kafumbecalvin-code.github.io/group-n-course-work/">Home</a>
     <a href="https://kafumbecalvin-code.github.io/group-n-course-work/about-us/about-us.html">About Us</a>
     <a href="https://kafumbecalvin-code.github.io/group-n-course-work/culture/culture.html">Culture</a>
     <a href="https://kafumbecalvin-code.github.io/group-n-course-work/trip-planner/trip-planner">Plan your trip</a>
     <a href="https://kafumbecalvin-code.github.io/group-n-course-work/information/information.html">For more info</a>
     <a href="https://kafumbecalvin-code.github.io/group-n-course-work/destinations/destinations.html">Find a Destination</a>
     <a href="#">Get in touch</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Contact Us</h1>
+        <p>If you have any inquiries or bookings, feel free to reach us through the form below.</p>
+    </section>
+
+    <section class="contact-box">
+        <form id="contactForm">
+            <label>Name</label>
+            <input type="text" id="name" required>
+
+            <label>Email</label>
+            <input type="email" id="email" required>
+
+            <label>Message</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Our Contacts</h3>
+            <p><strong>Email:</strong> info@exploreuganda.com</p>
+            <p><strong>Phone:</strong> +256 700 000000</p>
+            <p><strong>Address:</strong> Kampala, Uganda</p>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>&copy; 2025 ExploreUganda. All Rights Reserved.</p>
+    </footer>
+
+    <script src="contact.js"></script>
 </body>
 </html>
