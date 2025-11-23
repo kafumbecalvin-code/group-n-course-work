@@ -1,9 +1,5 @@
 body {
-    background-image: url("https://kafumbecalvin-code.github.io/group-n-course-work/images/about-us/Screenshot_20251116-104258.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-
+   background-color: gray;
 }
 
 .container {
