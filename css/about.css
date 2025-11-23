@@ -25,3 +25,61 @@ body {
     width: 50%;
     border-radius: 20px;
 }
+.nav-links a:hover {
+    text-decoration: wavy;
+    color: #605598;
+}
+.nav-links {
+    background: #2e8b57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 15px;
+    flex-direction: row;
+    font-size: 50px;
+}
+nav{
+    background-color: rgb(54, 109, 109);
+    padding: 15px 40px;
+    display:flex ;
+    border-radius: 10px ;
+    justify-content: space-between;
+}
+.footer{
+    color: ;
+    background-color:  rgb(54, 109, 109);
+    border-radius: 10px ;
+}
+.top img{
+    width:100% ;
+    border-radius: 10px;
+    height: 100%;
+}
+ ul{
+    display: flex;
+    color: white;
+    padding: 20px;
+    gap: 20px;
+}
+ul li{
+font-size: 20px;
+color: aliceblue;
+}
+ul li a{
+    color: bisque;
+}
+.footer-bottom{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
