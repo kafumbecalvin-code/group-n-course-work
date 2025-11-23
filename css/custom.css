@@ -22,7 +22,10 @@ header {
     color:#2e8b57;
     padding: 20px;
 }
-
+.nav{
+    background-color: aqua;
+    padding: 10px;
+}
 
 .nav-links {
     background: #2e8b57;
@@ -45,7 +48,7 @@ header {
 
 .nav-links a:hover {
     text-decoration: wavy;
-    color: #fff8e7;
+    color: #605598;
 }
 .attractions-grid {
     display: flex;
