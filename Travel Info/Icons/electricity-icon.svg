@@ -1,0 +1,21 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Power outlet (UK type G) -->
+  <rect x="25" y="30" width="50" height="50" rx="5" fill="none" stroke="#fcdc00" stroke-width="3"/>
+  
+  <!-- Top slot -->
+  <rect x="42" y="38" width="16" height="3" fill="#fcdc00"/>
+  
+  <!-- Bottom left slot -->
+  <rect x="32" y="58" width="3" height="16" fill="#fcdc00"/>
+  
+  <!-- Bottom right slot -->
+  <rect x="65" y="58" width="3" height="16" fill="#fcdc00"/>
+  
+  <!-- Ground pin slot (bottom center) -->
+  <circle cx="50" cy="72" r="2.5" fill="#fcdc00"/>
+  
+  <!-- Lightning bolt overlay -->
+  <g transform="translate(50, 50)">
+    <path d="M -2 -15 L 3 -5 L -1 0 L 6 15 L -3 5 L 2 0 Z" fill="#fcdc00" opacity="0.6"/>
+  </g>
+</svg>

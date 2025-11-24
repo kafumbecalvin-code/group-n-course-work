@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#2c5f2d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cloud -->
+    <path d="M 25 50 Q 20 45 20 40 Q 20 30 30 30 Q 35 20 45 20 Q 60 20 65 30 Q 75 30 75 40 Q 75 48 70 52" 
+          fill="#2c5f2d" opacity="0.15" stroke="#2c5f2d" stroke-width="2.5"/>
+    
+    <!-- Raindrops -->
+    <line x1="30" y1="55" x2="28" y2="65" stroke="#2c5f2d" stroke-width="2"/>
+    <line x1="45" y1="55" x2="43" y2="65" stroke="#2c5f2d" stroke-width="2"/>
+    <line x1="60" y1="55" x2="58" y2="65" stroke="#2c5f2d" stroke-width="2"/>
+    <line x1="72" y1="55" x2="70" y2="65" stroke="#2c5f2d" stroke-width="2"/>
+    
+    <!-- More raindrops -->
+    <line x1="37" y1="68" x2="35" y2="78" stroke="#2c5f2d" stroke-width="2"/>
+    <line x1="52" y1="68" x2="50" y2="78" stroke="#2c5f2d" stroke-width="2"/>
+    <line x1="67" y1="68" x2="65" y2="78" stroke="#2c5f2d" stroke-width="2"/>
+  </g>
+</svg>
