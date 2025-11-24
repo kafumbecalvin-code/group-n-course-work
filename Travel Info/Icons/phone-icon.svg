@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Phone body -->
+  <rect x="25" y="15" width="50" height="70" rx="5" fill="none" stroke="#fcdc00" stroke-width="2.5"/>
+  
+  <!-- Screen area -->
+  <rect x="30" y="22" width="40" height="40" rx="2" fill="#fcdc00" opacity="0.2" stroke="#fcdc00" stroke-width="1"/>
+  
+  <!-- Speaker slot -->
+  <line x1="35" y1="20" x2="65" y2="20" stroke="#fcdc00" stroke-width="1.5"/>
+  
+  <!-- Button area -->
+  <circle cx="50" cy="75" r="3" fill="#fcdc00"/>
+  <rect x="30" y="68" width="7" height="3" rx="1.5" fill="#fcdc00" opacity="0.6"/>
+  <rect x="63" y="68" width="7" height="3" rx="1.5" fill="#fcdc00" opacity="0.6"/>
+</svg>

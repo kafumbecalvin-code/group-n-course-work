@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Speech bubbles -->
+  <circle cx="35" cy="35" r="20" fill="none" stroke="#fcdc00" stroke-width="3"/>
+  <path d="M 30 55 L 25 65 L 35 58" fill="#fcdc00"/>
+  
+  <circle cx="65" cy="50" r="20" fill="none" stroke="#fcdc00" stroke-width="3"/>
+  <path d="M 60 70 L 55 80 L 65 73" fill="#fcdc00"/>
+  
+  <!-- Text representation -->
+  <line x1="30" y1="32" x2="40" y2="32" stroke="#fcdc00" stroke-width="1.5"/>
+  <line x1="30" y1="38" x2="40" y2="38" stroke="#fcdc00" stroke-width="1.5"/>
+  <line x1="30" y1="44" x2="38" y2="44" stroke="#fcdc00" stroke-width="1.5"/>
+  
+  <line x1="60" y1="47" x2="70" y2="47" stroke="#fcdc00" stroke-width="1.5"/>
+  <line x1="60" y1="53" x2="70" y2="53" stroke="#fcdc00" stroke-width="1.5"/>
+  <line x1="60" y1="59" x2="68" y2="59" stroke="#fcdc00" stroke-width="1.5"/>
+</svg>

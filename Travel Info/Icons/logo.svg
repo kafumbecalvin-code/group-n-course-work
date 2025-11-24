@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#2c5f2d" stroke="#fcdc00" stroke-width="3"/>
+  
+  <!-- Uganda flag colors stripes in background -->
+  <rect x="20" y="40" width="160" height="15" fill="#000000"/>
+  <rect x="20" y="55" width="160" height="15" fill="#fcdc00"/>
+  <rect x="20" y="70" width="160" height="15" fill="#d90000"/>
+  
+  <!-- Gorilla silhouette (simplified) -->
+  <g transform="translate(100, 110)">
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="18" fill="#1a1a1a"/>
+    
+    <!-- Body -->
+    <ellipse cx="0" cy="15" rx="20" ry="25" fill="#1a1a1a"/>
+    
+    <!-- Left arm -->
+    <ellipse cx="-22" cy="10" rx="8" ry="20" fill="#1a1a1a" transform="rotate(-30 -22 10)"/>
+    
+    <!-- Right arm -->
+    <ellipse cx="22" cy="10" rx="8" ry="20" fill="#1a1a1a" transform="rotate(30 22 10)"/>
+    
+    <!-- Left leg -->
+    <ellipse cx="-12" cy="38" rx="10" ry="15" fill="#1a1a1a"/>
+    
+    <!-- Right leg -->
+    <ellipse cx="12" cy="38" rx="10" ry="15" fill="#1a1a1a"/>
+    
+    <!-- Eyes -->
+    <circle cx="-6" cy="-18" r="3" fill="#fcdc00"/>
+    <circle cx="6" cy="-18" r="3" fill="#fcdc00"/>
+  </g>
+  
+  <!-- Mountain peaks accent -->
+  <path d="M 30 85 L 45 60 L 60 75 L 75 50 L 90 70" stroke="#fcdc00" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 110 70 L 125 50 L 140 75 L 155 60 L 170 85" stroke="#fcdc00" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>
