@@ -1,0 +1,26 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#2c5f2d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Fuselage -->
+    <path d="M 50 15 L 50 75"/>
+    
+    <!-- Nose cone -->
+    <circle cx="50" cy="12" r="4" fill="#2c5f2d"/>
+    
+    <!-- Windows -->
+    <circle cx="48" cy="30" r="2" fill="#2c5f2d"/>
+    <circle cx="48" cy="40" r="2" fill="#2c5f2d"/>
+    <circle cx="48" cy="50" r="2" fill="#2c5f2d"/>
+    
+    <!-- Wings -->
+    <path d="M 50 40 L 15 45 L 20 48 L 50 43 L 80 45 L 85 48 L 50 43"/>
+    <path d="M 15 45 L 20 48" stroke="#fcdc00" stroke-width="3"/>
+    <path d="M 85 48 L 80 45" stroke="#fcdc00" stroke-width="3"/>
+    
+    <!-- Tail wing -->
+    <path d="M 50 60 L 35 63 L 38 65 L 50 62 L 62 63 L 65 65 L 50 62"/>
+    
+    <!-- Tail vertical stabilizer -->
+    <path d="M 50 62 L 50 73"/>
+    <path d="M 48 70 L 52 70"/>
+  </g>
+</svg>
